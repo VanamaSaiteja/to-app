@@ -232,9 +232,12 @@ const Todo = () => {
     const date = timestamp.toDate();
     return date.toLocaleString(); // Example format: "6/29/2024, 10:30:23 AM"
   };
-
+var s=currentUser.email.split("@")
+// console.log(s,r);
   return (
     <div className="container">
+      
+      <h2>Hello,  <span style={{color:'#088395',fontSize:'x-large'}}>{s[0]}</span> </h2>
       <div className="head">
         <h2>To-Do List</h2>
         <button className="logout-btn" onClick={logout}>
@@ -258,7 +261,7 @@ const Todo = () => {
       <ol className="todo-list">
         {todos.map((todo, idx) => (
           <li key={todo.id}>
-            <p> {todo.text} - Created at: {formatTimestamp(todo.createdat)}</p>
+            <p> {idx+1}. {todo.text} - Created at: {formatTimestamp(todo.createdat)}</p>
             <button onClick={() => deleteTodo(todo.id)}>Delete</button>
           </li>
         ))}

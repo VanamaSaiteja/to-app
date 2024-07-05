@@ -265,7 +265,7 @@ body {
 
 /* List styles */
 .container .todo-list {
-  list-style-type: disc;
+  list-style-type: upper-roman;
   padding: 10px;
 }
 

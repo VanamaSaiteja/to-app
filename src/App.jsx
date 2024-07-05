@@ -5,6 +5,7 @@ import Register from "./register";
 import Todo from "./todo";
 import { AuthProvider, useAuth } from "./Context";
 import "./layouts.css";
+
 function PrivateRoute({ children }) {
   const { currentUser } = useAuth();
   return currentUser ? children : <Navigate to="/To-do-app" />;
