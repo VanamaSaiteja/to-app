@@ -1,8 +1,25 @@
-# React + Vite
+# To-Do List Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This is a simple To-Do List application built using React, Firebase Firestore, and Firebase Authentication. The application allows users to add, delete, and view their tasks in a chronological order. User authentication is implemented to ensure that each user's tasks are private.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- User authentication with Firebase
+- Add, view, and delete to-do items
+- Delete all to-do items with a single click
+- Fetch to-do items ordered by creation date
+- Responsive design
+- Light and dark mode support
+
+## Tech Stack
+
+- **Frontend**: React, JavaScript, HTML, CSS
+- **Backend**: Firebase Firestore for data storage, Firebase Authentication for user management
+- **Styling**: CSS, responsive design using media queries
+
+## Prerequisites
+
+- Node.js and npm installed
+- Firebase project setup with Firestore and Authentication enabled
