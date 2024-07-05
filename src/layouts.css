@@ -1,0 +1,117 @@
+/* .outer {
+    background-color: #61c4b0;
+    width: 450px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border-radius: 10px;
+    color:whitesmoke;
+}
+.fg input {
+    border: 1px solid white;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    margin: 5px;
+    width: 100%;
+}
+.lay {
+    background-color:#95D2B3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw; 
+}
+.fg button{
+    padding-top: 10px;
+    padding-right: 20px;
+    border-radius: 10px;
+    background-color: #4f9f8f;
+    font-size: large;
+    color: white;
+    font-weight: 300;
+    box-shadow: black;
+
+}
+span{
+    cursor: pointer;
+    text-decoration: underline;
+}
+span:hover{
+    color: blue;
+}
+.outer .fg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+} */
+
+
+.outer {
+    background-color: #61c4b0;
+    width: 40vw; 
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border-radius: 10px;
+    color: whitesmoke;
+  }
+  
+  .fg input {
+    background-color: white;
+    color:black;
+    border: 1px solid white;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    margin: 5px;
+    width: 100%;
+  }
+  
+  .lay {
+    background-color: #95d2b3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  .fg button {
+    /* padding-top: 10px;
+    padding-right: 20px; */
+    border-radius: 10px;
+    background-color: #4f9f8f;
+    font-size: large;
+    color: white;
+    font-weight: 300;
+    padding: 10px 20px;
+    border: 1px solid ;
+  }
+  
+  span {
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  
+  span:hover {
+    color: blue;
+  }
+  
+  .outer .fg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+ 
+
+
